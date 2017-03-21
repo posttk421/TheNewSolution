@@ -1,0 +1,1 @@
+EXECUTE msdb..sp_update_jobschedule @job_name = '_DBA_Backup', @name = '_DBA_Daily @6:00 PM', @freq_type = 4, @freq_subday_type = 0x1, @active_start_time = 210000

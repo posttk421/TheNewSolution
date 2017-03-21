@@ -1,0 +1,209 @@
+inital commit
+
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_dba_updatedgetagentjoblist.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_dbaindexes.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifycad02.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifyitasql02.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifyparpdsql02_wheelshop.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifyps02.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifysql03.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifysql04.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifysql05.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifysql06.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_pageverifysql06_shrpoint.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_setupmailaccounts.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_sp_askbrent.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_0_updatedbamonitor.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_1_dba_errorlogdata.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_1_dba_updatedjobdurationtoseconds.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_1_setupalerts.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_1_sp_blitz.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_1_updatedjob_dba_information.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_2_dba_updatedspagentjobhistory.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_2_dbabckupwithchecksum.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_2_newjob_dba_bckup_hourly.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_2_sp_blitzindex.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_3_dba_userreport.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_3_updatedlogmessage.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_4_dba_mnt_dbasefiles.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_5_dba_updatedbckup.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_6_dbatracefilelogging.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/[2017]_9_cleanupdbadbase.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/executescriptagainstsevers.ps1
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2005/sqlinstance.txt
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_dba_updatedgetagentjoblist.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_dbaindexes.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifycad02.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifyitasql02.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifyparpdsql02_wheelshop.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifyps02.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifysql03.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifysql04.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifysql05.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifysql06.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_pageverifysql06_shrpoint.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_setupmailaccounts.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_sp_askbrent.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_0_updatedbamonitor.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_1_dba_errorlogdata.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_1_dba_updatedjobdurationtoseconds.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_1_setupalerts.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_1_sp_blitz.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_1_updatedjob_dba_information.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_2_dba_updatedspagentjobhistory.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_2_dbabckupwithchecksum.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_2_newjob_dba_bckup_hourly.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_2_sp_blitzindex.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_3_dba_userreport.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_3_updatedlogmessage.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_4_dba_mnt_dbasefiles.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_5_dba_updatedbckup.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_6_dbatracefilelogging.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/[2017]_9_cleanupdbadbase.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/executescriptagainstsevers.ps1
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016 10 01/2008_2008r2/sqlinstance.txt
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_09/[2017]_newjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_09/[2017]_newprocedureorphanedusers.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_15/[2017]_proceduretestlinkedserver.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_15/[2017]_updatedagentjobhistory.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_15/[2017]_updateddbabckup.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_15/spblitzv18.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_16/[2017]_configchanges.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_16/[2017]_updatedinformationjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_16/[2017]_updatedsqlinstanceinfo.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_25/[2017]_newlogmessage.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_02_25/updatedinformation.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_newinfo_message.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_newloginobject_forconsistentordering.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_updatedagentjobhistorygatherer.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_updatedbckupjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_updatedcreatebckupstatement.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_updateddefragindexes.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_08/[2017]_updatedoptions.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_09/[2017]_newlogmessage.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_09/[2017]_updatedbckupjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_15/[2017]_updatedbckupdelete.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_15/[2017]_updateddbajob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_15/[2017]_updatedgetfilestodelete.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_22/[2017]_a_durationtranslator.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_22/[2017]_agentjobhistory.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_22/[2017]_datetranslator.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_22/[2017]_jobtable.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_22/[2017]_listagentjobs.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_22/[2017]_updatedjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_25/[2017]_alteredgetagentjobprocedure.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_25/[2017]_fixedauditloginservertable.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_25/[2017]_newbckupdbasestatement.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_25/[2017]_newbckupstatement.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_25/[2017]_updatedfolderlist.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_25/[2017]_updatedjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_27/[2017]_bckuplogins.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_27/[2017]_bckupssis.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_27/[2017]_tableobjectbckuphistory.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_27/[2017]_updatebckupjob.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_28/[2017]_updatedfunction.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_05_28/[2017]_updatedprocedure.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_09_21/[2017]_app_role_users.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_09_21/[2017]_approleusers.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_09_21/[2017]_approleusers_sql_auto.tmp
+#	new file:   TheNewSolution/DBA Database/Updates/Old/2016_09_21/[2017]_updatedgetfilestodelete.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/[2017]_updatedbckupdelete.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/[2017]_updateddbabckup.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/[2017]_updatedgetfilestodelete.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/dba_optionchange.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/droplinked.sql
+#	new file:   TheNewSolution/DBA Database/Updates/Old/jobstart.sql
+#	new file:   TheNewSolution/DBA Database/Updates/SQLInstance.txt
+#	new file:   TheNewSolution/DBA Database/Updates/executescriptagainstsevers.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_a_buildtables.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_a_job_dba_bckup.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_a_setupmailaccounts.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_b_build_functions.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_b_job_dba_backuphourly.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_b_job_dba_bckuphourly.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_b_setupalerts.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_buildfunctions.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_buildfunctionssqlauto.tmp
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_c_buildsprocs.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_c_job_dba_information.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_d_job_dba_maintenance.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_optionConfig.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/[2017]_powershellmodules.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupdbasecreate.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupdbasecreate.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupdbasecreate_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuplinkedserver.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuplinkedserver.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuplinkedserver_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuplogins.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuplogins.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuplogins_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuproles.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuproles.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckuproles_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupschemas.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupschemas.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupschemas_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupssas.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupssas.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupssas_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupssis.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupssis.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_bckupssis_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_buildfolderstructure.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_buildfolderstructure.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_buildfolderstructure_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_deleteoldbckupfiles.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_deleteoldbckupfiles.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_deleteoldbckupfiles_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_deleteoldscriptobjects.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_deleteoldscriptobjects.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_deleteoldscriptobjects_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_getdrivesize.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_getdrivesize.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_getdrivesize_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_sqlagentjobs.exe
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_sqlagentjobs.ps1
+#	new file:   TheNewSolution/DBA Database/base_installation/2005/dbascripts/dba_sqlagentjobs_exe.config
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_a_buildtables.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_a_job_dba_bckup.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_a_setupmailaccounts.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_b_build_functions.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_b_buildfunctions.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_b_buildfunctions_sql_auto.tmp
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_b_job_dba_bckuphourly.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_b_setupalerts.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_c_buildsprocs.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_c_job_dba_information.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_d_job_dba_maintenance.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_optionConfig.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_optionConfig_sql_auto.tmp
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/[2017]_option_Config.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2008_2208r2/powershellmodules.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_a_buildtables.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_a_job_dba_bckup.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_a_setupmailaccounts.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_b_buildfunctions.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_b_job_dba_bckuphourly.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_b_setupalerts.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_c_build_procedures.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_c_buildprocedures.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_c_buildprocedures_sql_auto.tmp
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_c_job_dba_information.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_d_job_dba_maintenance.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_optionConfig.sql
+#	new file:   TheNewSolution/DBA Database/base_installation/2012_2014/[2017]_powershellmodules.sql
+#	new file:   TheNewSolution/dba_indexadd.sql
+#	new file:   TheNewSolution/ddl_dbasemailsettings.sql
+#	new file:   TheNewSolution/ddl_getbackupfiles.sql
+#	new file:   TheNewSolution/ddl_getbckupfiles.sql
+#
